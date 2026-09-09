@@ -1,0 +1,44 @@
+# ===== תלויות =====
+node_modules/
+**/node_modules/
+
+# ===== קבצי סביבה וסודות =====
+.env
+.env.local
+.env.development
+.env.production
+**/.env
+**/.env.local
+
+# ===== פלט Build של הלקוח (Vite) =====
+dist/
+build/
+**/dist/
+**/build/
+
+# ===== קבצים שהועלו על ידי משתמשים (מסמכים אישיים - לא לגיטהאב) =====
+uploads/*
+!uploads/.gitkeep
+
+# ===== לוגים =====
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# ===== קבצי מערכת הפעלה =====
+.DS_Store
+Thumbs.db
+
+# ===== קבצי IDE =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ===== קאש =====
+.cache/
+.vite/
